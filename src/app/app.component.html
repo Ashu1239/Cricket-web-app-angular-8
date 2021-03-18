@@ -1,0 +1,52 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <app-messages></app-messages> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">APL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/venues" routerLinkActive="active">Venues</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/teamsinfo" routerLinkActive="active">Teams</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/pointtable" routerLinkActive="active">Points Table</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/match-center" routerLinkActive="active">Matches Summary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/winnerdetails" routerLinkActive="active">Winner</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/photoGallary" routerLinkActive="active">Photo Gallary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sponsers" routerLinkActive="active">Sponsers</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="conatiner-fluid back">
+  <div class="container-fluid d-flex flex-row justify-content-center align-items-center mt-2">
+    <h2 class="p-2">Adali Premier League 4.0</h2>
+
+  </div>
+
+</div>
+
+
+
+<router-outlet></router-outlet>

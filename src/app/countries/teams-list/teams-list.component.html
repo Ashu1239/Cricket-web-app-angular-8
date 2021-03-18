@@ -1,0 +1,21 @@
+<!-- <p>teams-list works!</p> -->
+
+<div class="conatiner-fluid d-flex flex-column align-items-center mb-2"  *ngIf="teams">
+    <h2 class=" card-title p-3">Team Details</h2>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 25rem;">
+          <img src="{{teams.image}}" class="card-img-top" alt="team.logo">
+          <div class="card-body back">
+            <h4 class="card-title"><label>Team Name: &nbsp;</label>{{teams.name}}</h4>
+            <h5 class="card-subtitle "><label>Owner: &nbsp;</label>{{teams.owner}}</h5> <br/>
+            <h6 style="margin-bottom: 6px;" class="card-subtitle "><label>Captain: &nbsp;</label>{{teams.captain}}</h6>
+            <h6 class="card-subtitle "><label>Vice Captaion: &nbsp;</label>{{teams.vice_captain}}</h6>
+            <p class="card-text"></p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
